@@ -1,13 +1,13 @@
 {
-    "provider": "gemini",
-     "openai": {
-        "model": "gpt-4o-mini",
-        "max_tokens": 300,
-        "temperature": 0.3
-    },
-    "gemini": {
+    "provider": "openai",
+    "gemini":{
         "model": "models/gemini-2.5-flash",
-        "max_tokens": 200,
-        "temperature": 0.7
+        "temperature": 0.7,
+        "max_token": 200
+    },
+    "openai":{
+        "model": "gpt-4o-mini",
+        "temperature": 0.3,
+        "max_token": 300
     }
 }
